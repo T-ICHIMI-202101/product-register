@@ -3,7 +3,7 @@ sudo: required
 services: docker
 
 
-bfore_install:
+before_install:
   -　docker login -u TOUTA2022 -p 8f6e3b9b-3b62-48bd-9a2d-e182b9fca7de
   -　docker-compose up --bulid -d
 
