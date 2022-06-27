@@ -2,6 +2,7 @@ sudo: required
 
 services: docker
 
+
 bfore_install:
   -　docker login -u $DOCKER_USERNAME -p $DOCKER_ACCESS_TOKEN
   -　docker-compose up --bulid -d
