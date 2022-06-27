@@ -4,7 +4,7 @@ services: docker
 
 
 before_install:
-  - docker login -u TOUTA2022 -p 8f6e3b9b-3b62-48bd-9a2d-e182b9fca7de
+  - docker login -u touta2022 -p 14d42906-0438-4e6c-98e7-9a221f55bbea
   - docker-compose up --bulid -d
 
 script:
