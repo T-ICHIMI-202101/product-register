@@ -5,7 +5,7 @@ services: docker
 
 before_install:
   - docker login -u touta2022 -p 14d42906-0438-4e6c-98e7-9a221f55bbea
-  - docker-compose up --bulid -d
+  - docker-compose up --build -d
 
 script:
   - docker-compose exec --env 'RAILS_ENV=test' web rails db:create
