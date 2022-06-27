@@ -11,8 +11,7 @@ services:
     volumes:
       - '.:/product-register'
     environment: 
-      - 'DOCKER_USERNAME=TOUTA2022'
-      - 'DOCKER_ACCESS_TOKEN=8f6e3b9b-3b62-48bd-9a2d-e182b9fca7de'
+      - 'DATABASE_PASSWORD=postgres'
     tty: true
     stdin_open: true
     depends_on :
